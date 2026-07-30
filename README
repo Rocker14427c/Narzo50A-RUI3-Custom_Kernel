@@ -1,18 +1,88 @@
-Linux kernel
-============
+# 🚀 Realme Narzo 50A RUI3 Kernel
+### ReSukiSU + SuSFS Integrated Kernel
 
-This file was moved to Documentation/admin-guide/README.rst
+> A clean, stable Linux 4.14 kernel for the **Realme Narzo 50A (RMX3430)** with **ReSukiSU** and **SuSFS** integration for advanced root management and root hiding.
 
-Please notice that there are several guides for kernel developers and users.
-These guides can be rendered in a number of formats, like HTML and PDF.
+---
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.
+## ✨ Features
 
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
+- ✅ ReSukiSU integrated
+- ✅ SuSFS integrated
+- ✅ Built for Realme UI 3 (Android 12)
+- ✅ Flashable via AnyKernel3
 
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+---
+
+## 📱 Device
+
+| Item | Value |
+|------|-------|
+| Device | Realme Narzo 50A |
+| Model | RMX3430 |
+| Android | 12 |
+| Realme UI | 3.0 |
+| Kernel | Linux 4.14 |
+
+---
+
+## 📦 Releases
+
+Flashable builds are available in the **Releases** section.
+
+➡️ Download the latest AnyKernel3 ZIP from:
+**Releases → Latest**
+
+---
+
+## ⚙️ Flashing
+
+1. Unlock bootloader.
+2. Install a custom recovery.
+3. Download the latest release.
+4. Flash the AnyKernel3 ZIP.
+5. Reboot.
+
+---
+
+## 🌟 Included
+
+- ReSukiSU
+- SuSFS
+- AnyKernel3 Flash Package
+
+---
+
+## ⚠️ Disclaimer
+
+Flashing a custom kernel may cause boot loops or data loss if used incorrectly.
+
+You are responsible for anything that happens to your device.
+
+Always keep a backup before flashing.
+
+---
+
+## 💻 Source
+
+Kernel source is available in this repository.
+
+Contributions, bug reports and pull requests are welcome.
+
+---
+
+## ❤️ Credits
+
+- Realme Kernel Open Source
+- ReSukiSU Developers
+- SuSFS Developers
+- AnyKernel3 Developers
+- Special thanks to [@Badmaneers] 
+
+---
+
+# ⭐ Support
+
+If this project helped you, consider giving this repository a **⭐ Star**.
+
+It helps the project reach more users and motivates future development.
