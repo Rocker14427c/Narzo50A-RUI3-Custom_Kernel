@@ -11,7 +11,6 @@
 #include <linux/seqlock.h>
 #include <linux/stat.h>
 #include <linux/uaccess.h>
-#include <linux/version.h>
 #include <linux/fdtable.h>
 #include <linux/statfs.h>
 #include <linux/random.h>
@@ -20,7 +19,6 @@
 #include <linux/workqueue.h>
 #include <linux/fsnotify_backend.h>
 #include <linux/jump_label.h>
-#include <linux/version.h> // We need check kernel version.
 #include <linux/susfs.h>
 #include "fuse/fuse_i.h"
 #include "mount.h"
