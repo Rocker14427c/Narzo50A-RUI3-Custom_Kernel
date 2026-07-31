@@ -94,7 +94,7 @@
 # 2. Reboot to TWRP / OrangeFox recovery
 # 3. Flash the AnyKernel3 zip
 # 4. Reboot
-# 5. Install KernelSU Manager
+# 5. Install ReSukiSU Manager
 # 6. (Optional) Flash susfs4ksu module for full hiding
 ```
 
