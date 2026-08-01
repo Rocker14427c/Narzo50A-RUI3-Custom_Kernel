@@ -3908,11 +3908,11 @@ static struct file *path_openat(struct nameidata *nd,
 				while (!(error = link_path_walk(new_s, nd)) &&
 					(error = do_last(nd, file, op, &opened)) > 0) {
 					nd->flags &= ~(LOOKUP_OPEN|LOOKUP_CREATE|LOOKUP_EXCL);
-					s = trailing_symlink(nd);
-					if (IS_ERR(new_s)) {
-						error = PTR_ERR(new_s);
-						break;
-					}
+				s = trailing_symlink(nd);
+				if (IS_ERR(s)) {
+					error = PTR_ERR(s);
+					break;
+				}
 				}
 			}
 		}
